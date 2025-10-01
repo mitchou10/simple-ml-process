@@ -1,5 +1,6 @@
 run-test:
-  echo "Running tests..."
+	echo "Running tests..."
+	PYTHONPATH=$(PWD) uv run pytest -s -v tests/
 
 lint:
-  echo "Linting code..."
+	echo "Linting code..."
