@@ -17,7 +17,7 @@ on:
 
 jobs:
   run-tests:
-    runs-on: actions-runner-controller
+    runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
